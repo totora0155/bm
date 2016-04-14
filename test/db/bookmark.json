@@ -1,0 +1,22 @@
+{
+  "defaults": [
+    {
+      "name": "foo",
+      "path": "path/to/foo",
+      "cdCount": 0,
+      "birthtime": "Mon, 1 Jan 2000 00:00:00 GMT"
+    },
+    {
+      "name": "bar",
+      "path": "path/to/bar",
+      "cdCount": 0,
+      "birthtime": "Mon, 2 Jan 2000 00:00:00 GMT"
+    },
+    {
+      "name": "baz",
+      "path": "path/to/baz",
+      "cdCount": 0,
+      "birthtime": "Mon, 3 Jan 2000 00:00:00 GMT"
+    }
+  ]
+}

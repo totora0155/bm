@@ -1,0 +1,35 @@
+{
+  "name": "tsum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "tsum": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/totora0155/tsum.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/totora0155/tsum/issues"
+  },
+  "homepage": "https://github.com/totora0155/tsum#readme",
+  "dependencies": {
+    "home-path": "^1.0.3",
+    "lowdb": "^0.12.5",
+    "meow": "^3.7.0",
+    "mkdirp": "^0.5.1",
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "rewire": "^2.5.1",
+    "sinon": "^1.17.3",
+    "xo": "^0.14.0"
+  }
+}
