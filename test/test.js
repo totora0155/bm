@@ -12,27 +12,27 @@ Bookmark.__set__('db', db);
 test('defualt (add)', t => {
   const bm = new Bookmark({input: []});
   const spy = sinon.spy(bm, 'add');
-  bm.proc();
+  bm.process();
   t.true(spy.called);
 })
 
 test('add', t => {
   const bm = new Bookmark({input: ['add']});
   const spy = sinon.spy(bm, 'add');
-  bm.proc();
+  bm.processess();
   t.true(spy.called);
 })
 
 test('ls', t => {
   const bm = new Bookmark({input: ['ls']});
   const spy = sinon.spy(bm, 'ls');
-  bm.proc();
+  bm.process();
   t.true(spy.called);
 })
 
 test('cd', t => {
   const bm = new Bookmark({input: ['cd']});
   const spy = sinon.spy(bm, 'cd');
-  bm.proc();
+  bm.process();
   t.true(spy.called);
 })
